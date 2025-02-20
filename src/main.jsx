@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Layout from './Layout.jsx'
-import LiveCasino from './components/LiveCasino/Livecasino.jsx'
+import LiveCasino from './components/LiveCasino/LiveCasino.jsx'
 import Slot from './components/Slot/Slot.jsx'
 import ServiceCenter from './components/ServiceCenter/ServiceCenter.jsx'
 import Announcement from './components/Announcement/Announcement.jsx'
@@ -14,7 +14,7 @@ import Mypage from './components/Mypage/Mypage.jsx'
 import { Navigate } from 'react-router-dom'
 
 
-registerSW(); 
+
 
 
 
