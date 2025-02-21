@@ -4,6 +4,7 @@ function Message() {
   return (
     <div>
       <Input/>
+      
     </div>
   )
 }

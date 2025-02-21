@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { FiMenu, FiX } from 'react-icons/fi'
@@ -60,7 +58,7 @@ function Header() {
 
           {/* login button */}
           <div className='hidden md:flex items-center'>
-            <button className='bg-sky-700 font-bold py-2 px-4 rounded-2xl text-white hover:bg-sky-400'>Login </button>
+            <button className='bg-sky-700 font-bold py-2 px-4 rounded-2xl text-white hover:bg-sky-400'>Login  </button>
           </div>
         </nav>
       </header>

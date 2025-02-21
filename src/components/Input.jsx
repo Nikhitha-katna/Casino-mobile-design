@@ -1,100 +1,4 @@
-// import React from 'react'
 
-// function Input() {
-//   return (
-//     <div className=' bg-slate-900  h-96 w-96 mx-auto mt-44 mb-0 overflow-hidden '>
-
-//      <p className='text-center font-bold text-2xl mt-4'>User Login</p>
-//      <div className='w-24 h-1 border-b-4 border-sky-600 rounded-2xl mx-auto mt-3' ></div>
-//      <div className=''>
-//        <label htmlFor="" className='ml-6  font-bold'>Username/ID</label>
-//        <input 
-//        className='bg-black text-white p-2 ml-5 mt-2 w-80 rounded-sm'
-//        type="text" namen="" id="" placeholder='Enter Your Unique ID' />
-
-//        <label htmlFor="" className='ml-6  font-bold'>Password</label>
-//        <input 
-//        className='bg-black text-white p-2 ml-5 mt-2 w-80 rounded-sm'
-//        type="password" name="" id=""  placeholder='Enter password'/>
-//   <br />
-//        <input
-//        className='text-white ml-5 mt-5 rounded-sm'
-//         type="checkbox" name="" id=""/> <span>Keep Me LoggedIn</span>
-//      </div>
-//      <button
-//       className="w-80 bg-blue-500 !important text-white py-2 px-4 rounded-md mx-auto block mt-5"
-//       >
-//     Login
-//   </button>
-
-//   <div className='mt-4'>
-//     <span className='ml-14 mr-2'>New to Casino ?</span>
-//     <span className='font-bold underline text-white'>
-//         <a href=""> Join The Membership</a></span>
-//   </div>
-
-//     </div>
-//   )
-// }
-
-// export default Input
-
-
-// import React, { useState, useEffect } from "react";
-
-// function Input() {
-//   const [isVisible, setIsVisible] = useState(false);
-
-//   useEffect(() => {
-//     const timer = setTimeout(() => {
-//       setIsVisible(true);
-//     }, 0.8); 
-
-//     return () => clearTimeout(timer);
-//   }, []);
-
-//   return (
-//     <div
-//       className={`bg-slate-900 h-96 w-96 mx-auto mt-3.5 rounded-sm mb-0 overflow-hidden 
-//       transition-transform duration-500 ${isVisible ? "translate-y-0" : "translate-y-full"}`}
-//     >
-//       <p className="text-center font-bold text-2xl mt-4">User Login</p>
-//       <div className="w-24 h-1 border-b-4 border-sky-600 rounded-2xl mx-auto mt-3"></div>
-
-//       <div>
-//         <label className="ml-6 font-bold">Username/ID</label>
-//         <input
-//           className="bg-black text-white p-2 ml-5 mt-2 w-80 rounded-sm"
-//           type="text"
-//           placeholder="Enter Your Unique ID"
-//         />
-
-//         <label className="ml-6 font-bold">Password</label>
-//         <input
-//           className="bg-black text-white p-2 ml-5 mt-2 w-80 rounded-sm"
-//           type="password"
-//           placeholder="Enter password"
-//         />
-//         <br />
-//         <input className="text-white ml-5 mt-5 rounded-sm" type="checkbox" />
-//         <span> Keep Me LoggedIn</span>
-//       </div>
-
-//       <button className="w-80 bg-blue-500 text-white py-2 px-4 rounded-md mx-auto block mt-5">
-//         Login
-//       </button>
-
-//       <div className="mt-4">
-//         <span className="ml-14 mr-2">New to Casino ?</span>
-//         <span className="font-bold underline text-white">
-//           <a href=""> Join The Membership</a>
-//         </span>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Input;
 
 
 import React, { useState, useEffect } from "react";
@@ -105,7 +9,7 @@ function Input() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 800); // Fixed timeout issue
+    }, 0.8); 
 
     return () => clearTimeout(timer);
   }, []);

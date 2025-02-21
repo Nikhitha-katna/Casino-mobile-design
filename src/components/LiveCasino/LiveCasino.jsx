@@ -14,7 +14,7 @@ function LiveCasino() {
       </div>
 
       {/* Title */}
-      <img 
+      <img
         className="max-w-full h-auto mt-4"
         src="https://ts3.eer-wsd.com/assets/casino_heading-DAwetEKr.png" 
         alt="" 

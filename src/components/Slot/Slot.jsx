@@ -43,6 +43,7 @@ function Slot() {
           "https://eer-wsd.com/asset/vender/slots/habanero.png",
           "https://eer-wsd.com/asset/vender/slots/blueprint-gaming.png",
           "https://eer-wsd.com/asset/vender/slots/bfgames.png",
+          "https://eer-wsd.com/asset/vender/slots/bfgames.png",
         ].map((src, index) => (
           <img
             key={index}

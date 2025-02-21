@@ -4,6 +4,7 @@ function Mypage() {
   return (
     <div>
       <Input/>
+    
     </div>
   )
 }
