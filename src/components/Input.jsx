@@ -1,5 +1,4 @@
- 
-import React, { useState, useEffect } from "react";
+ import React, { useState, useEffect } from "react";
 
 function Input() {
   const [isVisible, setIsVisible] = useState(false);
@@ -7,7 +6,7 @@ function Input() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 0.5; 
+    }, 400); 
 
     return () => clearTimeout(timer);
   }, []);
@@ -15,7 +14,8 @@ function Input() {
   return (
     <div
       className={`bg-slate-900 w-full max-w-md mx-auto mt-6 rounded-lg p-6 overflow-hidden 
-      transition-transform duration-500 ${isVisible ? "translate-y-0" : "translate-y-full"}`}
+      transition-all duration-700 ease-out
+      ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
     >
       {/* Title */}
       <p className="text-center font-bold text-2xl text-white">User Login</p>
@@ -61,3 +61,5 @@ function Input() {
 }
 
 export default Input;
+
+
