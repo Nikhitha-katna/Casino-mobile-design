@@ -7,7 +7,7 @@ function Input() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 0.8; 
+    }, 0.5; 
 
     return () => clearTimeout(timer);
   }, []);
