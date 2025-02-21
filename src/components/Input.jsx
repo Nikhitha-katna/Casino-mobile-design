@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 
 import React, { useState, useEffect } from "react";
-=======
- import React, { useState, useEffect } from "react";
->>>>>>> caaf55a30e97a3b7167e18cc8b3fa95c5b4cd1fc
+
+
+
 
 function Input() {
   const [isVisible, setIsVisible] = useState(false);
@@ -67,7 +66,3 @@ function Input() {
 
 export default Input;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> caaf55a30e97a3b7167e18cc8b3fa95c5b4cd1fc
