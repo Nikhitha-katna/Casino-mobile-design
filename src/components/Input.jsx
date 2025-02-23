@@ -13,7 +13,7 @@ function Input() {
   }, []);
 
   return (
-    <div
+     <div
       className={`bg-slate-900 w-full max-w-md mx-auto mt-6 rounded-lg p-6 overflow-hidden 
       transition-all duration-700 ease-out
       ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}

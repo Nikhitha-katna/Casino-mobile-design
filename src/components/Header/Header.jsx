@@ -16,7 +16,11 @@ function Header() {
  
   return (
     <>
+<<<<<<< HEAD
       <header className="relative z-50">
+=======
+     <header className="relative z-50">
+>>>>>>> 56aedc976960817133d1d46bf8471251dded0064
         <nav className='flex justify-between items-center bg-sky-800 px-4 py-3 md:px-8'>
           {/* logo */}
           <div>
@@ -64,8 +68,11 @@ function Header() {
           </div>
         </nav>
       </header>
+
     </>
   )
 }
 
 export default Header
+
+

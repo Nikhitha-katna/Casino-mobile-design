@@ -36,7 +36,10 @@ function LiveCasino() {
                  rounded-full sm:rounded-2xl object-cover object-top 
                  transition-transform duration-300 ease-in-out 
                  hover:-translate-y-2 hover:scale-110"
+<<<<<<< HEAD
             
+=======
+>>>>>>> 56aedc976960817133d1d46bf8471251dded0064
       src={src}
       alt={`Live Casino ${index + 1}`}
     />
@@ -66,8 +69,11 @@ function LiveCasino() {
   ))}
 </div>
 
+<<<<<<< HEAD
       
 
+=======
+>>>>>>> 56aedc976960817133d1d46bf8471251dded0064
       
       {/* Another Row of Cards */}
       <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-7">
@@ -95,3 +101,8 @@ function LiveCasino() {
 }
 
 export default LiveCasino;
+
+       
+            
+       
+         
