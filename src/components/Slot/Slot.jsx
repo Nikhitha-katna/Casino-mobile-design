@@ -28,7 +28,10 @@ function Slot() {
         ].map((src, index) => (
           <img
             key={index}
-            className="w-[200px] h-[200px] rounded-2xl  object-cover object-top transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:scale-110"
+            className="w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] md:w-[200px] md:h-[200px] 
+                 rounded-full sm:rounded-2xl object-cover object-top 
+                 transition-transform duration-300 ease-in-out 
+                 hover:-translate-y-2 hover:scale-110"
             src={src}
             alt={`Live Casino ${index + 1}`}
           />
@@ -47,7 +50,8 @@ function Slot() {
         ].map((src, index) => (
           <img
             key={index}
-            className="w-[200px] h-[200px] rounded-2xl object-cover object-top  transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:scale-110"
+            className="w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] md:w-[200px] md:h-[200px] rounded-full sm:rounded-2xl object-cover object-top 
+            transition-transform duration-300 ease-in-out  hover:-translate-y-2 hover:scale-110"
             src={src}
             alt={`Live Casino ${index + 6}`}
           />
@@ -65,7 +69,8 @@ function Slot() {
         ].map((src, index) => (
           <img
             key={index}
-            className="w-[200px] h-[200px] rounded-2xl object-cover object-top  transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:scale-110"
+            className="w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] md:w-[200px] md:h-[200px] rounded-full sm:rounded-2xl object-cover object-top 
+            transition-transform duration-300 ease-in-out  hover:-translate-y-2 hover:scale-110"
             src={src}
             alt={`Live Casino ${index + 6}`}
           />

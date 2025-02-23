@@ -1,9 +1,6 @@
 
 import React, { useState, useEffect } from "react";
 
-
-
-
 function Input() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -27,31 +24,45 @@ function Input() {
 
       {/* Form Inputs */}
       <div className="mt-4">
-        <label className="block font-bold text-white">Username/ID</label>
-        <input
-          className="bg-black text-white p-2 w-full rounded-md mt-1"
-          type="text"
-          placeholder="Enter Your Unique ID"
-        />
+            <form
+       action="#"
+       onSubmit={(e) => {
+        e.preventDefault(); 
+        alert("You have successfully logged in");
+    }}
+    >
+    <label className="block font-bold text-white">Username/ID</label>
+    <input
+      className="bg-black text-white p-2 w-full rounded-md mt-1"
+      type="text"
+      placeholder="Enter Your Unique ID"
+      required
+    />
 
-        <label className="block font-bold text-white mt-4">Password</label>
-        <input
-          className="bg-black text-white p-2 w-full rounded-md mt-1"
-          type="password"
-          placeholder="Enter password"
-        />
+    <label className="block font-bold text-white mt-4">Password</label>
+    <input
+      className="bg-black text-white p-2 w-full rounded-md mt-1"
+      type="password"
+      placeholder="Enter password"
+      required
+    />
 
-        {/* Checkbox */}
-        <div className="flex items-center mt-4">
-          <input className="text-white rounded-sm" type="checkbox" id="keep-logged-in" />
-          <label htmlFor="keep-logged-in" className="ml-2 text-white">Keep Me Logged In</label>
-        </div>
+    {/* Checkbox */}
+    <div className="flex items-center mt-4">
+      <input className="text-white rounded-sm" type="checkbox" id="keep-logged-in" />
+      <label htmlFor="keep-logged-in" className="ml-2 text-white">Keep Me Logged In</label>
+    </div>
 
-        {/* Login Button */}
-        <button className="w-full bg-blue-500 text-white py-2 px-4 rounded-md mt-5 hover:bg-blue-600 transition">
-          Login
-        </button>
-      </div>
+    {/* Login Button */}
+    <button
+      className="w-full bg-blue-500 text-white py-2 px-4 rounded-md mt-5 hover:bg-blue-600 transition"
+      type="submit"
+    >
+      Login
+    </button>
+            </form>
+</div>
+
 
       {/* Sign Up Link */}
       <div className="mt-4 text-center text-white">
